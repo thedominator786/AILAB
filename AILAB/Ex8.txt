@@ -1,3 +1,7 @@
+//Aim: To apply EM algorithm to cluster a set of data stored in a .csv file. Use the same dataset for
+//clustering using k-means algorithm.
+
+
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 import sklearn.metrics as metrics
