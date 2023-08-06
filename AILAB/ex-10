@@ -1,0 +1,51 @@
+Ex. 10 Study of PROLOG
+
+Prolog Study
+
+o Prolog stands for programming in logic. In the logic programming paradigm, prolog
+language is most widely available. Prolog is a declarative language, which means that
+a program consists of data based on the facts and rules (Logical relationship) rather than
+computing how to find a solution. A logical relationship describes the relationships
+which hold for the given application.
+
+o To obtain the solution, the user asks a question rather than running a program. When a
+user asks a question, then to determine the answer, the run time system searches through
+the database of facts and rules.
+
+o Starting Prolog
+
+o Prolog system is straightforward. From one person to other person, the precise details
+of Prolog will vary. Prolog will produce a number of lines of headings in the starting,
+which is followed by a line. It contains just
+o ?-
+o The above symbol shows the system prompt. The prompt is used to show that the Prolog
+system is ready to specify one or more goals of sequence to the user. Using a full stop,
+we can terminate the sequence of goals.
+o ?- write('Welcome to Javatpoint'),nl,write('Example of Prolog'),nl.
+o nl indicates 'start a new line'. When we press 'return' key, the above line will show the
+effect like this:
+o Welcome to Javatpoint
+o Example of Prolog
+
+o yes
+o ?- prompt shows the sequence of goal which is entered by the user. The user will not
+type the prompt. Prolog system will automatically generate this prompt. It means that
+it is ready to receive a sequence of goals.
+o The above example shows a sequence of goals entered by the user like this:
+o write('Welcome to Javatpoint'), write('Example of Prolog'), nl(twice).
+Consider the following sequence of goals:
+write('Welcome to AI'),nl,write('Example of Prolog'),nl.
+The above sequence of goals has to succeed in order to be succeeded.
+o write('Welcome to AI')On the screen of the user, Welcome to AI has to be displayed
+o nl
+On the screen of the user, a new line has to be output
+o write('Example of Prolog')
+o On the screen of the user, Example of Prolog has to be displayed
+o nl
+On the screen of the user, a new line has to be output
+All these goals will simply achieve by the Prolog system by outputting the line of text to the
+screen of the user. To show that the goals have succeeded, we will output yes.
+The Prolog system predefined the meanings of nl and write. Write and nl are called as built-in
+predicates.
+Halt and statistics are the two other built-in predicates. In almost all Prolog versions, these
+predicates are provided as standard.
