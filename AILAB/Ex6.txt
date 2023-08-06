@@ -1,3 +1,7 @@
+//By assuming a set of documents that need to be classified, use the naive Bayesian classifier model to
+//perform this task. Built in java classes / API can be used to write the program. Calculate the accuracy,
+//precision and recall for your data set.
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
