@@ -19,4 +19,4 @@ road("gordon", "kansas_city", 130).
 
 
 
-Query:  route("tampa", "kansas_city", Distance).
+//Query:  route("tampa", "kansas_city", Distance).
