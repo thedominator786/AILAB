@@ -26,4 +26,4 @@ queens([C|Cs], Row0, [Col|Solution]) :-
 	queens(Board, Row, Solution).
 
 
-Query: queens(8, Qs).
+//Query: queens(8, Qs).
