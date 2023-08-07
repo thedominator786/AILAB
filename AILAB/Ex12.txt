@@ -38,4 +38,4 @@ s(e,i).
 s(e,j).
 
 
-Query: trace, (solve(a, Sol))
+//Query: trace, (solve(a, Sol))
